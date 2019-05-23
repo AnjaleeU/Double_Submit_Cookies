@@ -11,13 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Web servlet which authenticate for CSRF token before redirecting to the home
- * page
- * 
- * @author JNiroshan
- *
- */
+
 @WebServlet("/HomeServlet")
 public class HomeServlet extends HttpServlet
 {
