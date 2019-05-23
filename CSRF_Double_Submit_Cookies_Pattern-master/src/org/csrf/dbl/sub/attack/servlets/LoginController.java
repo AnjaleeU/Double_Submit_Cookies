@@ -14,9 +14,6 @@ import org.csrf.dbl.sub.attack.persist.Database;
 import org.csrf.dbl.sub.attack.utils.Lambdas;
 
 
-/**
- * Servlet implementation class LoginController
- */
 @WebServlet("/LoginController")
 public class LoginController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
